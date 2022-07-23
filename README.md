@@ -1,0 +1,5 @@
+- 👋 Hi, I’m Sachin
+- 👀 I’m interested in everything related to Data, Finance & Entrepreneurship
+- 🌱 I’m currently learning Cloud Data Engineering, Finance, owning SMB..
+- 💞️ I’m looking to collaborate on ..
+- 📫 How to reach me ...

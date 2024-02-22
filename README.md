@@ -3,7 +3,7 @@
 
 ## Welcome to My GitHub Portfolio!
 
-I'm Sachin Thomas, a Data Engineer with a strong foundation in data analysis, deeply passionate about transforming raw data into actionable insights and scalable data solutions. 
+Data Engineer with a strong foundation in data analysis, deeply passionate about transforming raw data into actionable insights and scalable data solutions. 
 
 Outside the realm of data, I'm deeply passionate about personal finance, entrepreneurship, and investing
 

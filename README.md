@@ -30,3 +30,7 @@ This portfolio contains a collection of my projects showcasing my skills in data
 I'm always open to collaborating on projects, sharing knowledge, and exploring new opportunities in the field of data engineering and beyond, especially those that touch on my interests in personal finance, entrepreneurship, and investing. Feel free to reach out to me if you're interested in connecting!
 
 Thank you for visiting my portfolio!
+
+### References
+
+AlexTheAnalyst: [How to Create a Portfolio Website for FREE](https://youtu.be/ocdwh0KYeUs?si=B7ss0GkRC5tyr0v8)

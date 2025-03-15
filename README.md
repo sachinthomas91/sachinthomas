@@ -1,10 +1,5 @@
-# Personal GitHub Portfolio
-[Sachin Thomas](https://sachinthomas91.github.io/sachinthomas/)
-
-## Welcome to My GitHub Portfolio!
-
 # 💫 About Me:
-👋 Hi, I'm Sachin Thomas<br>Portfolio | LinkedIn | GitHub<br><br>🚀 Senior Data Engineer | AWS & GCP | Snowflake & BigQuery | dbt & Airflow<br><br>I design scalable data pipelines and modern data warehouse solutions that drive decision-making and business growth. Currently leading data initiatives and mastering data strategy at enterprise scale.<br><br>💡 Passions: AI/ML, Data Engineering, Personal Finance, Entrepreneurship, and Investing.<br><br>🔧 Tech Stack<br>Languages: Python, SQL, Spark<br>Cloud: AWS, GCP<br>Data Warehousing: Snowflake, BigQuery<br>Tools: dbt, Paradime.io, Airflow, GitHub, Fivetran, Tableau, Power BI, DataDog<br><br>📂 Featured Projects<br>Check out my repositories for AI/ML projects, end-to-end data pipelines, cloud data solutions, and analytics projects.<br><br>👉 Open to collaborations and exciting opportunities. Feel free to connect!
+👋 Hi, I'm Sachin<br>[Github Portfolio Page](https://sachinthomas91.github.io/sachinthomas/)<br><br>🚀 Senior Data Engineer | AWS & GCP | Snowflake & BigQuery | dbt & Airflow<br><br>I design scalable data pipelines and modern data warehouse solutions that drive decision-making and business growth. Currently leading data initiatives and mastering data strategy at enterprise scale.<br><br>💡 Passions: AI/ML, Data Engineering, Personal Finance, Entrepreneurship, and Investing.<br><br>🔧 Tech Stack<br>Languages: Python, SQL, Spark<br>Cloud: AWS, GCP<br>Data Warehousing: Snowflake, BigQuery<br>Tools: dbt, Paradime.io, Airflow, GitHub, Fivetran, Tableau, Power BI, DataDog<br><br>📂 Featured Projects<br>Check out my repositories for AI/ML projects, end-to-end data pipelines, cloud data solutions, and analytics projects.<br><br>👉 Open to collaborations and exciting opportunities. Feel free to connect!
 
 
 ## 🌐 Socials:

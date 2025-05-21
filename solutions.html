@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solutions | Data & AI Professional Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="hamburger" id="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <aside class="sidebar" id="sidebar">
+                <ul class="sidebar-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="solutions.html">Solutions</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </aside>
+        </nav>
+    </header>
+    <main>
+        <section class="page-title">
+            <h1>Solutions</h1>
+        </section>
+        <section class="about about-vertical">
+            <div class="about-block about-block-long" style="padding-top: 0.5rem; padding-bottom: 0.5rem; min-height: unset; width: 100%; box-sizing: border-box;">
+                <h2 style="margin-bottom: 0.3rem; font-size: 1.2rem; text-align: left;">Generative AI</h2>
+                <p style="margin: 0; font-size: 0.98rem; text-align: left;">Unlock the power of Generative AI and Large Language Models. I help automate workflows, enhance productivity, and solve real-world challenges with tailored GenAI solutions.</p>
+            </div>
+            <div class="about-block about-block-long" style="padding-top: 0.5rem; padding-bottom: 0.5rem; min-height: unset; width: 100%; box-sizing: border-box;">
+                <h2 style="margin-bottom: 0.3rem; font-size: 1.2rem; text-align: left;">Data Engineering</h2>
+                <p style="margin: 0; font-size: 0.98rem; text-align: left;">Design and build robust data pipelines and scalable data platforms. Ensure data quality, reliability, and accessibility to empower analytics and AI initiatives.</p>
+            </div>
+            <div class="about-block about-block-long" style="padding-top: 0.5rem; padding-bottom: 0.5rem; min-height: unset; width: 100%; box-sizing: border-box;">
+                <h2 style="margin-bottom: 0.3rem; font-size: 1.2rem; text-align: left;">Analytics & BI</h2>
+                <p style="margin: 0; font-size: 0.98rem; text-align: left;">Transform data into actionable insights. Advanced analytics, business intelligence, and data visualization to help make informed, data-driven decisions.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 ST. All rights reserved.</p>
+    </footer>
+    <script>
+    // Sidebar toggle
+    const hamburger = document.getElementById('hamburger-menu');
+    const sidebar = document.getElementById('sidebar');
+    hamburger.onclick = function() {
+        sidebar.classList.toggle('active');
+        hamburger.classList.toggle('active');
+    };
+    // Optional: close sidebar when clicking outside
+    document.addEventListener('click', function(e) {
+        if (!sidebar.contains(e.target) && !hamburger.contains(e.target)) {
+            sidebar.classList.remove('active');
+            hamburger.classList.remove('active');
+        }
+    });
+    </script>
+</body>
+</html>

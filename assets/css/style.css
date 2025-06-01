@@ -138,16 +138,63 @@ main {
     flex-wrap: wrap;
     gap: 2rem;
     justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 0;
 }
 .project-card {
     background: #fafbfc;
     border: 1px solid #eee;
     border-radius: 10px;
-    padding: 1.5rem;
-    min-width: 250px;
-    max-width: 350px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.02);
-    margin-bottom: 1rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+.project-card h2 {
+    color: #222;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    font-size: 1.4rem;
+}
+.project-card p {
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    color: #444;
+    font-size: 0.95rem;
+}
+.project-card ul {
+    list-style: disc;
+    padding-left: 2rem;
+    margin-bottom: 2rem;
+    font-size: 0.95rem;
+}
+.project-card ul li {
+    margin-bottom: 0.5rem;
+    color: #444;
+}
+.project-card ul li a {
+    color: #0077b6;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+.project-card ul li a:hover {
+    color: #005b8c;
+    text-decoration: underline;
+}
+.project-card .citation {
+    font-size: 0.85rem;
+    color: #666;
+    border-top: 1px solid #eee;
+    padding-top: 1.5rem;
+    margin-top: 1.5rem;
+}
+.project-card .citation a {
+    color: #0077b6;
+    text-decoration: none;
+}
+.project-card .citation a:hover {
+    text-decoration: underline;
 }
 .contact-form {
     max-width: 400px;
@@ -279,6 +326,41 @@ footer {
 }
 .about-me-content li {
     margin-bottom: 0.5rem;
+}
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 0;
+}
+.project-header h2 {
+    margin: 0;
+    transition: color 0.2s;
+    font-size: 1.4rem;
+}
+.project-header:hover h2 {
+    color: #0077b6;
+}
+.expand-icon {
+    font-size: 1rem;
+    color: #666;
+    transition: transform 0.3s ease;
+}
+.project-content {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #eee;
+    display: none;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+.project-card.expanded .project-content {
+    display: block;
+    opacity: 1;
+}
+.project-card.expanded .expand-icon {
+    transform: rotate(180deg);
 }
 @media (max-width: 700px) {
     nav {

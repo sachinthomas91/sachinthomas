@@ -16,7 +16,7 @@
             </div>
             <aside class="sidebar" id="sidebar">
                 <ul class="sidebar-links">
-                    <li><a href="./">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About Me</a></li>
                     <li><a href="projects.html">Projects</a></li>
                     <li><a href="solutions.html">Solutions</a></li>
@@ -29,19 +29,29 @@
         <section class="page-title">
             <h1>Projects</h1>
         </section>
-        <section class="projects-list">
-            <!-- Example project card -->
-            <div class="project-card">
-                <h2>Project Title</h2>
-                <p>Short description of the project, technologies used, and your role.</p>
+        <section class="projects-list">            <div class="project-card">
+                <div class="project-header">
+                    <h2>dbt Core implementation with Olist E-commerce Data</h2>
+                    <span class="expand-icon">▼</span>
+                </div>
+                <div class="project-content">
+                    <p><strong>Project Repository:</strong> <a href="https://github.com/sachinthomas91/dbt-data" target="_blank">dbt core with Olist data</a></p>                    
+                    <p>This project demonstrates a real-world DBT implementation using Google BigQuery as the data warehouse. 
+                    The project analyzes Brazilian e-commerce data from Olist, using public datasets available on Kaggle:</p>
+                    <ul>
+                        <li><a href="https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce" target="_blank">Brazilian E-Commerce Public Dataset by Olist</a></li>
+                        <li><a href="https://www.kaggle.com/datasets/olistbr/marketing-funnel-olist" target="_blank">Marketing Funnel by Olist</a></li>
+                    </ul>
+                    <p class="citation">Data citation: Olist. (2018). Brazilian E-Commerce Public Dataset & Marketing Funnel Dataset. 
+                    <br>Kaggle: <a href="https://www.kaggle.com/organizations/olistbr" target="_blank">https://www.kaggle.com/organizations/olistbr</a></p>
+                </div>
             </div>
             <!-- Add more project cards as needed -->
         </section>
     </main>
     <footer>
         <p>&copy; 2025 [Your Name]. All rights reserved.</p>
-    </footer>
-    <script>
+    </footer>    <script>
     // Sidebar toggle
     const hamburger = document.getElementById('hamburger-menu');
     const sidebar = document.getElementById('sidebar');
@@ -55,6 +65,14 @@
             sidebar.classList.remove('active');
             hamburger.classList.remove('active');
         }
+    });
+
+    // Project card expansion
+    document.querySelectorAll('.project-header').forEach(header => {
+        header.addEventListener('click', () => {
+            const card = header.closest('.project-card');
+            card.classList.toggle('expanded');
+        });
     });
     </script>
 </body>
